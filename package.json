@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker:build": "docker build -t peeper-app .",
+    "docker:dev": "docker-compose up dev",
+    "docker:prod": "docker-compose up app",
+    "docker:test": "bash scripts/test-docker.sh"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.34",
