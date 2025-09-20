@@ -1,4 +1,3 @@
-"use client";
 import React from 'react';
 import './globals.css';
 import { Inter } from 'next/font/google';
@@ -18,8 +17,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Peeper App</title>
-        <meta name="description" content="A modern web application built with Next.js and TailwindCSS" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
